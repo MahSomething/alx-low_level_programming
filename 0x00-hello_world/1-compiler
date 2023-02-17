@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S $FILEC -o $(echo $FILEC | cut -d '.' -f1).O
+gcc -S $FILEC -o $(echo $FILEC | cut -d'.' -f1).O
