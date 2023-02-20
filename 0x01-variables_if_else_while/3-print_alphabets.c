@@ -1,4 +1,8 @@
 #include <stdio.h>
+/**
+ *Entry point
+ * Main
+ */
 int main(void)
 {
 	char a = 'a';
