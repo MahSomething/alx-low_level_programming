@@ -2,8 +2,10 @@
 int main(void)
 {
 	char b = '\n';
-for (char a = 'a'; a <='z'; a++)
+	char a = 'a';
+while (a <= 'z')
 {	putchar(a);
+	a++;
 }
 putchar(b);
 return (0);
