@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- *Entry point
- * Main
+ *main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -14,7 +15,7 @@ int main(void)
 		putchar(a);
 		a++;
 	}
-	while ( b <= 'Z')
+	while (b <= 'Z')
 		{
 		putchar(b);
 		b++;
