@@ -9,7 +9,6 @@ if (c == i)
 {
 return (1);
 }
-_putchar('\n');
 }
 return (0);
 }
