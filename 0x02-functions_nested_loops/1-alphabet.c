@@ -6,6 +6,7 @@
  */
 int main(void)
 {
+
 /**
  * print_alphabet - will run the loop and send the char to _putchar
  *
