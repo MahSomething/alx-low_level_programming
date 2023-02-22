@@ -14,5 +14,6 @@ while (j <= 10)
 		_putchar(i);
 		}
 	_putchar('\n');
+	j++;
 	}
 }
