@@ -13,12 +13,13 @@ void print_alphabet(void)
 /**
 *letter - will interrate throug all the ASCII code
 */
-for (int letter = 97; letter <= 122; letter++)
+char i;
+for (i ='a'; i <= 'z'; i++)
 {
 /**
 * print_alphabet - will run the loop and send the char to _putchar 
 */
-print_alphabet(letter);
+_putchar(i);
 }
 _putchar('\n');
 }
