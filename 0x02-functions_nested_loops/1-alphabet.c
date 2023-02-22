@@ -4,14 +4,21 @@
  *
  * Return: Always 0.
  */
-int main(void)
-{
 
+/*
+*void print_alphabet() - will print the english aphabet
+*/
+void print_alphabet(void)
+{
 /**
- * print_alphabet - will run the loop and send the char to _putchar
- *
- * Return: Always 0.
- */
-print_alphabet();
-return (0);
+*letter - will interrate throug all the ASCII code
+*/
+for (int letter = 97; letter <= 122; letter++)
+{
+/**
+* print_alphabet - will run the loop and send the char to _putchar 
+*/
+print_alphabet(letter);
+}
+_putchar('\n');
 }
