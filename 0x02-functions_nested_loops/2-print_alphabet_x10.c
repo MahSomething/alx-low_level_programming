@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
-*print_alphabet - will run the loop and send the char to _putchar
+*print_alphabet_10x - will run the loop and send the char to _putchar
 */
-void print_alphabet_10x(void)
+void print_alphabet_x10(void)
 {
 int j = 1;
 while (j <= 10)
-	{	
+	{
 	char i;
 		for (i = 'a'; i <= 'z'; i++)
 		{
