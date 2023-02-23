@@ -7,10 +7,7 @@ int main(void)
 {
 char c = '\n';
 int i;
-if (i == 0)
-{
 positive_or_negative(i);
 putchar(c);
-}
 return (0);
 }
