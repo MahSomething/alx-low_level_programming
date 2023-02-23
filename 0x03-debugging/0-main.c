@@ -10,6 +10,6 @@ int main(void)
 int i;
 i = 0;
 piositive_or_negative(i);
-_putchar('\n');
+putchar('\n');
 return (0);
 }
