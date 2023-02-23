@@ -1,4 +1,3 @@
-i#include <stdio.h>
 /**
 * main - causes an infinite loop
 * Return: 0
@@ -6,19 +5,20 @@ i#include <stdio.h>
 
 int main(void)
 {
-	int i;
+	  int i;
 
-	printf("Infinite loop incoming :(\n");
+	  printf("Infinite loop incoming :(\n");
 
-/**
-*Those lines of code are causing an infinite loop
-*	i = 0;
-*	while (i < 10)
-*	{
-*	putchar(i);
-*	}
-*/
+	  i = 0;
+
+while (i < 10)
+{
+
+putchar(i);
+
+}
 
 printf("Infinite loop avoided! \\o/\n");
+
 return (0);
 }
