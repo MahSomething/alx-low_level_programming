@@ -4,7 +4,7 @@
 * @c:  - will pass the value to function to be checked
 * Return: 0
 */
-void positive_or_negative(int c);
+void positive_or_negative(int i);
 
 int main(void)
 {
