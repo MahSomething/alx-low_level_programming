@@ -11,7 +11,5 @@ if (number < 0)
 {
 number = number * (-1);
 }
-else
-number = number;
-return (0);
+return (number);
 }
