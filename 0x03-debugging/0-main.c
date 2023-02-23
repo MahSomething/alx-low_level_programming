@@ -7,9 +7,10 @@
 
 int main(void)
 {
+char c = '\n';
 int i;
 i = 0;
 piositive_or_negative(i);
-putchar('\n');
+printf("%c", c);
 return (0);
 }
