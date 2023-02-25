@@ -1,3 +1,4 @@
+#include "main.h"
 /**
 * print_numbers - this function is used to print numbers as characters
 */
