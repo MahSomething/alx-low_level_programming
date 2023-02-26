@@ -16,7 +16,7 @@ void print_line(int n)
 		}
 	if (i <= 0)
 	{
-	_putchar(newLine)
+	_putchar(newLine);
 	}
 	_putchar(newLine);
 }
