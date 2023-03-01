@@ -16,5 +16,5 @@ count++;
 i++;
 }
 write(1, str, count);
-write(1, newLine, 1);
+write(1, &newLine, 1);
 }
