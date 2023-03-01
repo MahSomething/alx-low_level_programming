@@ -1,8 +1,12 @@
+/**
+* _puts - Receives a ptr to strng and print it using write()
+* @str: is the pointer holding the address of strng
+*/
+
 #include "main.h"
 #include <unistd.h>
-int _strlen(char *s);
 void _puts(char *str)
 {
-int sizeOfStrng = _strlen(str);
- write(1, &str, sizeOfStrng);
+int sizeOfStrng = sizeofn(str);
+write(1, &str, sizeOfStrng);
 }
