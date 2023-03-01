@@ -7,5 +7,12 @@
 #include <unistd.h>
 void _puts(char *str)
 {
-write(1, str, sizeof(str));
+int i = 0;
+int count = 0;
+while (str[i] != '\0')
+{
+count++;
+i++;
+}
+write(1, str, count);
 }
