@@ -7,6 +7,6 @@
 #include <unistd.h>
 void _puts(char *str)
 {
-int sizeOfStrng = sizeofn(str);
+int sizeOfStrng = sizeof(str);
 write(1, &str, sizeOfStrng);
 }
